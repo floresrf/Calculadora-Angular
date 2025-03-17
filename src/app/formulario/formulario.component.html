@@ -1,0 +1,17 @@
+<div class="d-flex justify-content-center">
+    <div class="w-50">
+        <div class="mb-3">
+                <h1>{{title}}</h1>
+            <p>Operando A</p>
+        </div>
+            <input type="number" [(ngModel)]="val1"
+            autocomplete="off"/>
+            <p>Operando B</p>
+            <input type="number" [(ngModel)]="val2"
+            autocomplete="off"/>
+            <div class="row" ></div>        
+            <div class="mb-3" style="margin-top: 20px;" >
+                <button type="button" class="btn btn-success" (click)="calcularBtn()">Calcular</button>
+            </div>                        
+    </div>
+</div>
